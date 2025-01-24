@@ -1,8 +1,34 @@
-# React + Vite
+# Ambitio Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect implementation of the Ambitio landing page hero section, built with React and modern web technologies.
 
-Currently, two official plugins are available:
+## Implementation Approach
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used
+- **React**: Used for building the user interface components and managing state
+- **JavaScript**: Core programming language for the implementation
+- **TailwindCSS**: Utilized for styling and responsive design
+- **React Icons**: Implemented for various UI icons throughout the page
+
+### Key Features
+
+#### Design Implementation
+- Pixel-perfect recreation of the hero section matching the Figma design
+- Careful attention to typography, colors, and spacing
+- Custom components for navigation items and statistics display
+
+#### Responsive Design
+- Fully responsive layout adapting to desktop, tablet, and mobile screens
+- Mobile-first approach with responsive breakpoints
+- Custom navigation handling for different screen sizes
+- Dynamic menu toggle for mobile devices
+
+#### Component Structure
+- **LandingPage**: Main component housing the hero section and stats
+- **NavigationItem**: Reusable component for navigation menu items
+- **StatItem**: Component for displaying statistics with consistent styling
+
+#### State Management
+- Implemented using React's useState and useEffect hooks
+- Efficient handling of menu states and responsive behaviors
+- Dynamic overflow checking for navigation items
