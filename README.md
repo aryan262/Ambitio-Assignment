@@ -1,6 +1,6 @@
 # Ambitio Landing Page
 
-A pixel-perfect implementation of the Ambitio landing page hero section, built with React and modern web technologies.
+A responsive and interactive landing page for Ambitio, showcasing a hero section with dynamic navigation and key statistics. Built with React, JavaScript, and TailwindCSS, this project demonstrates modern web development practices with a focus on pixel-perfect design implementation and smooth user experience across all devices.
 
 ## Implementation Approach
 
