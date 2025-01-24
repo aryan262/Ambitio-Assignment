@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+    @keyframes scroll-left-to-right {
+      0% { transform: translateX(0); } /* Start fully in view */
+      100% { transform: translateX(-100%); } /* Move to the left, out of the view */
+    }
+  
+    .animate-scroll {
+      animation: scroll-left-to-right 6s linear infinite;
+    }
+  }
+
+  .background-gradient {
+    background: linear-gradient(135deg, rgba(255, 215, 220, 1) 0%, rgba(245, 245, 245, 1) 100%);
+  }
+
+
+  
