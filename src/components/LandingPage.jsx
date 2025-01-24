@@ -31,7 +31,7 @@ function LandingPage() {
   }, [checkOverflow])
 
   useEffect(() => {
-    handleResize() // Initial check
+    handleResize() 
 
     window.addEventListener("resize", handleResize)
 
@@ -95,7 +95,6 @@ function LandingPage() {
       <section className="flex flex-col w-full pt-[96px]">
         <div className="flex flex-col w-full font-semibold">
           <div className="w-full relative overflow-hidden h-[250px] md:h-[500px]">
-            {/* Scrolling images */}
             <div className="absolute top-0 left-0 w-full h-full flex animate-scroll">
               <img
                 loading="lazy"
@@ -110,7 +109,6 @@ function LandingPage() {
                 className="object-cover w-auto h-full flex-shrink-0"
               />
             </div>
-            {/* Crown background and logo */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative">
                 <img src="crown-bg.png" alt="Crown Background" className="w-24 h-24 md:w-36 md:h-36" />
